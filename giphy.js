@@ -17,7 +17,7 @@ var movies = ["The Hangover","Step Brothers", "Dumb and Dumber", "White Chicks",
 //event delegation
 $("#buttonsDiv").on("click", "button", function() {
 		var movie = $(this).attr("data-movie");
-		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=dc6zaTOxFJmzC";		
+		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=dc6zaTOxFJmzC";		
 		// console.log(this);
 
 //clear the divs before the ajax call
